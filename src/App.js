@@ -33,9 +33,6 @@ function App() {
       <hr/>
       <h3>Envie uma mensagem</h3>
         <p>
-          Utilizando o poder de um modelo essa mensagem ira hostear modelo pré-treinado para geração de text (GPT-like)
-        </p>
-        <p>
           Exemplo: "What is the capital of USA?"
         </p>
         <div>
@@ -47,7 +44,7 @@ function App() {
         </div>
           <input onChange={handleChange} value={userInput} type="text" placeholder="Hello there" style={{width: "600px"}} />
           <hr/>
-          <button onClick={handleClick}  >RUN</button>
+          <button onClick={handleClick} style={{margin: "30px", height: "45px", width: "200px", borderRadius: "10px", border: "none", boxShadow: "0px 0px 0px 2px white", background: "black", color:"white", borderColor:"white", cursor: "pointer"}} >RUN</button>
       
 
       </header>
